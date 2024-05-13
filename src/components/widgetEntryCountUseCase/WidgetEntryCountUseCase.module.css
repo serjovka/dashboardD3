@@ -1,0 +1,41 @@
+.widgetEntryCountUseCase{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.widgetEntryCountUseCase__item{
+}
+
+.widgetEntryCountUseCase__logo-container{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+.widgetEntryCountUseCase__logo{ /*Непонятные размеры картинки на макете*/
+    margin: auto; 
+    vertical-align: middle;
+}
+
+.widgetEntryCountUseCase__quantity{
+    display: inline-block;
+    font-family: HeliosCondC;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0071B2;
+    vertical-align: middle;
+}
+
+.widgetEntryCountUseCase__title{
+    margin-top: 20px;
+    font-family: HeliosCondC;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19.52px;
+    letter-spacing: 0;
+    color: #0071B2;
+    text-transform: uppercase;
+}

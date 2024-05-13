@@ -4,7 +4,7 @@ import { formatPoints } from "../../helpers/helpers";
 import Gauge from "../../D3/gauge/Gauge";
 import styles from "./WidgetRatingGaugeChart.module.css";
 
-type responseData = {
+type ResponseData = {
     averageratingperiod1: number,
     averageratingperiod2: number,
     differenceratings: number,
@@ -12,19 +12,20 @@ type responseData = {
 };
 
 export default function WidgetRatingGaugeChart() {
-    const [data, setData] = useState<responseData>();
+    const [data, setData] = useState<ResponseData>();
     const [isFetching, setIsFetching] = useState(false);
+    
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch('/WidgetRatingGaugeChartUseCase.json')
-            const data = await response.json() as responseData;
+            const data = await response.json() as ResponseData;
             setData(data);
             setIsFetching(false);
         }
 
         setIsFetching(true);
         fetchData();
-    },[])
+    }, [])
 
     return (
         <div className={styles.widgetRatingGaugeChart}>

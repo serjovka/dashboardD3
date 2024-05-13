@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "HeliosCondC";  
+    src: url("../public/fonts/helioscondc_bold.otf") format("otf"); 
+    font-style: bold; 
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-row{
+    display: flex;
+    gap: 22px;
+}
+
+.dashboard-common-widget{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid var(--color-bg-border);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.legend{
+    display: flex;
+    gap: 41px;
+    width: 100%;
+}
+
+.legend__item{
+    display: inline;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: var(--color-typo-secondary);
+}
+
+.legend__item::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.legend__item_excellent::before{
+    background-color: var(--color-bg-success);
+}
+
+.legend__item_good::before{
+    background-color: var(--color-bg-caution);
+}
+
+.legend__item_satisfactory::before{
+    background-color: var(--color-bg-warning);
+}
+
+.legend__item_bad::before{
+    background-color: var(--color-bg-alert);
+}
+
+.legend__item_blue::before{
+    background-color: #3393CD;
+}
+
+.legend__item_brand::before{
+    background-color: var(--color-bg-brand);
+}
+
+.legend__item_cued::before{
+    height: 0px;
+    width: 16px;
+    border-radius: 0;
+    border-bottom: 1.5px dashed var(--color-bg-alert);
+    vertical-align: middle;
+}
+
+
+.hl{
+    width: 100%;
+    border-bottom: 1px solid var(--color-bg-border);
+}
+
+.vl{
+    width: 0;
+    border-left: 1px solid var(--color-bg-border);
+}
+
+.dashboard__solo-widget{
+    border: 1px solid var(--color-bg-border);
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 26px;
+}

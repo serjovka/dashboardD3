@@ -1,0 +1,12 @@
+{ 
+    "period1": {
+        "timestampFrom": "1704056399",
+        "timestampTo": "1704056401"
+    },
+    "period2": {
+        "timestampFrom": "1640984399",
+        "timestampTo": "1640984401"
+    },
+    "region": "saint-petesburg",
+    "jobTypes": "building"
+}

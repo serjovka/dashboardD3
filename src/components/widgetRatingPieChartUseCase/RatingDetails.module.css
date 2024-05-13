@@ -1,0 +1,95 @@
+.links{
+    display: flex;
+    gap: 5.96px;
+    justify-content: center;
+    width: 100%;
+}
+
+.link{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #B2BCC2;
+
+    transition: width 0.5s, background-color 0.5s, border-radius 0.5s;
+}
+
+.link_active{
+    display: block;
+    width: 14px;
+    height: 6px;
+    border-radius: 17.02px;
+    background-color: #0071B2;
+    
+    transition: width 0.5s, background-color 0.5s, border-radius 0.5s;
+}
+
+.card{
+    max-width: 557px;
+    width: 340px;
+    background-color: #FAFAFA;
+    border: 1px solid #ECF1F4;
+    border-radius: 12px;
+    padding: 16px;
+    position: relative;
+}
+
+.page-buttons{
+    display: flex;
+    gap: 9px;
+    position: absolute;
+    top: -11px;
+    right: 21px;
+}
+
+.page-button{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid #ECF1F4;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.page-button_image{
+    display: block;
+    width: 12px;
+    height: 7.41px;
+}
+
+.details__header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.details__rating{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 13.23px;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    padding: 6px 1px;
+    box-sizing: border-box;
+}
+
+.details__name{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #002033;
+}
+
+.details__contract{
+    margin-top: 12px;
+    margin-bottom: 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #002033;
+}

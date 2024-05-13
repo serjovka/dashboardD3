@@ -1,0 +1,18 @@
+[	
+    {	
+        "companyid": 3907,	
+        "companyname": "Организация 1",	
+        "ratingperiod1": 28,	
+        "contractsperiod1": 2,	
+        "ratingperiod2": 49,	
+        "contractsperiod2": 1	
+    },	
+    {	
+        "companyid": 3911,	
+        "companyname": "Организация 2",	
+        "ratingperiod1": 90,	
+        "contractsperiod1": 10,	
+        "ratingperiod2": 80,	
+        "contractsperiod2": 6	
+    }	
+]	

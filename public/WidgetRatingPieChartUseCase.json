@@ -1,0 +1,51 @@
+{ 	
+    "allRatings": 18,	
+    "excellentRatings": 7,	
+    "excellentRatingsPercentages": 28,	
+    "goodRatings": 5,	
+    "goodRatingsPercentages": 45,	
+    "satisfactoryRatings": 4,	
+    "satisfactoryPercentages": 25,	
+    "badRatings": 2,	
+    "badRatingsPercentages": 12,	
+    "badRatingsCompanies": [{	
+        "badCompanyRating": 49,	
+        "badCompanyName": "ООО \"Техноспецстрой\"",	
+        "badCompanyContract": "Реконструкция газопромысловых сооружений"	
+    },	
+    {   	
+        "badCompanyRating": 48, 	
+        "badCompanyName": "ООО \"Техноспецстрой 2\"", 	
+        "badCompanyContract": "Реконструкция компрессорных сооружений"	
+    }],
+    "satisfactoryRatingsCompanies": [{	
+        "satisfactoryCompanyRating": 65,	
+        "satisfactoryCompanyName": "ООО \"Техноспецстрой\"",	
+        "satisfactoryCompanyContract": "Реконструкция газопромысловых сооружений"	
+    },	
+    {   	
+        "satisfactoryCompanyRating": 66, 	
+        "satisfactoryCompanyName": "ООО \"Техноспецстрой 2\"", 	
+        "satisfactoryCompanyContract": "Реконструкция компрессорных сооружений"	
+    }],
+    "goodRatingsCompanies": [{	
+        "goodCompanyRating": 71,	
+        "goodCompanyName": "ООО \"Техноспецстрой\"",	
+        "goodCompanyContract": "Реконструкция газопромысловых сооружений"	
+    },	
+    {   	
+        "goodCompanyRating": 72, 	
+        "goodCompanyName": "ООО \"Техноспецстрой 2\"", 	
+        "goodCompanyContract": "Реконструкция компрессорных сооружений"	
+    }],
+    "excellentRatingsCompanies": [{	
+        "excellentCompanyRating": 91,	
+        "excellentCompanyName": "ООО \"Техноспецстрой\"",	
+        "excellentCompanyContract": "Реконструкция газопромысловых сооружений"	
+    },	
+    {   	
+        "excellentCompanyRating": 92, 	
+        "excellentCompanyName": "ООО \"Техноспецстрой 2\"", 	
+        "excellentCompanyContract": "Реконструкция компрессорных сооружений"	
+    }]
+}

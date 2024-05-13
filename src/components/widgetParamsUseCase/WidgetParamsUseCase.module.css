@@ -1,0 +1,27 @@
+.widgetParamsUseCase{
+    display: flex;
+    gap: 2.6875em;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.widgetParamsUseCase__property{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.widgetParamsUseCase__property-title{
+    color: #667985;
+}
+
+.widgetParamsUseCase__property-value{
+    color: #002033;
+}
+
+.widgetParamsUseCase__separator{
+    height: 30px;
+    border-left: 2px solid #ECF1F4;
+}

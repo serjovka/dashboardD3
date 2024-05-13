@@ -1,4 +1,4 @@
-export type Item = {
-    rating : string;
-    count: number;
-}
+export type Time = {
+    timestampFrom: number,
+    timestampTo: number,
+};
